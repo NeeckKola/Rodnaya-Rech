@@ -1,0 +1,292 @@
+[2024-09-16 02:04:19.200089 +0300] INFO    start_polling: Start polling
+[2024-09-16 02:04:19.258672 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:04:27.187706 +0300] INFO    feed_update: Update id=850248431 is handled. Duration 0 ms by bot id=7471759004
+[2024-09-16 02:04:53.672258 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 02:04:53.926288 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:05:31.714668 +0300] INFO    start_polling: Start polling
+[2024-09-16 02:05:31.772858 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:05:35.202529 +0300] INFO    feed_update: Update id=850248432 is handled. Duration 233 ms by bot id=7471759004
+[2024-09-16 02:05:38.820722 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 02:05:39.071463 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:09:52.195631 +0300] INFO    start_polling: Start polling
+[2024-09-16 02:09:52.250570 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:09:56.172336 +0300] INFO    feed_update: Update id=850248433 is handled. Duration 0 ms by bot id=7471759004
+[2024-09-16 02:10:08.545864 +0300] INFO    feed_update: Update id=850248434 is handled. Duration 0 ms by bot id=7471759004
+[2024-09-16 02:10:26.154807 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 02:10:26.416427 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:10:52.545016 +0300] INFO    start_polling: Start polling
+[2024-09-16 02:10:52.606361 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:10:56.664966 +0300] INFO    feed_update: Update id=850248435 is handled. Duration 0 ms by bot id=7471759004
+[2024-09-16 02:11:05.574183 +0300] INFO    feed_update: Update id=850248436 is handled. Duration 0 ms by bot id=7471759004
+[2024-09-16 02:11:18.592135 +0300] INFO    feed_update: Update id=850248437 is handled. Duration 0 ms by bot id=7471759004
+[2024-09-16 02:11:25.991936 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 02:11:26.253159 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:12:36.193839 +0300] INFO    start_polling: Start polling
+[2024-09-16 02:12:36.272430 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:12:39.141027 +0300] INFO    feed_update: Update id=850248438 is handled. Duration 202 ms by bot id=7471759004
+[2024-09-16 02:12:52.725111 +0300] INFO    feed_update: Update id=850248439 is handled. Duration 0 ms by bot id=7471759004
+[2024-09-16 02:12:59.124654 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 02:12:59.393493 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:13:33.012007 +0300] INFO    start_polling: Start polling
+[2024-09-16 02:13:33.068892 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:13:45.344798 +0300] INFO    feed_update: Update id=850248440 is not handled. Duration 0 ms by bot id=7471759004
+[2024-09-16 02:13:45.345800 +0300] ERROR   _process_update: Cause exception while process update id=850248440 by bot id=7471759004
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+Traceback (most recent call last):
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\src\handlers.py", line 11, in start
+    await keyboards.menu_kbrd(message)
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\src\keyboards.py", line 16, in menu_kbrd
+    await message.answer(reply_markup=keyboard)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Message.answer() missing 1 required positional argument: 'text'
+[2024-09-16 02:13:54.731775 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 02:13:54.996246 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:29:13.070274 +0300] INFO    start_polling: Start polling
+[2024-09-16 02:29:13.126288 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:29:17.644099 +0300] INFO    feed_update: Update id=850248441 is handled. Duration 202 ms by bot id=7471759004
+[2024-09-16 02:29:18.911854 +0300] INFO    feed_update: Update id=850248442 is not handled. Duration 77 ms by bot id=7471759004
+[2024-09-16 02:29:18.912841 +0300] ERROR   _process_update: Cause exception while process update id=850248442 by bot id=7471759004
+NameError: name 'is_blocked' is not defined
+Traceback (most recent call last):
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\PycharmProjects\Test\SecondTryFasterClickBot\src\handlers.py", line 20, in sendname
+    if not is_blocked:
+           ^^^^^^^^^^
+NameError: name 'is_blocked' is not defined
+[2024-09-16 02:29:37.703019 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 02:29:37.964065 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:30:28.859107 +0300] INFO    start_polling: Start polling
+[2024-09-16 02:30:28.943002 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:30:35.804224 +0300] INFO    feed_update: Update id=850248443 is handled. Duration 3266 ms by bot id=7471759004
+[2024-09-16 02:30:47.081633 +0300] INFO    feed_update: Update id=850248445 is handled. Duration 172 ms by bot id=7471759004
+[2024-09-16 02:30:47.229516 +0300] INFO    feed_update: Update id=850248446 is handled. Duration 141 ms by bot id=7471759004
+[2024-09-16 02:30:47.329728 +0300] INFO    feed_update: Update id=850248447 is handled. Duration 92 ms by bot id=7471759004
+[2024-09-16 02:30:47.488545 +0300] INFO    feed_update: Update id=850248448 is handled. Duration 79 ms by bot id=7471759004
+[2024-09-16 02:30:49.980993 +0300] INFO    feed_update: Update id=850248444 is handled. Duration 3234 ms by bot id=7471759004
+[2024-09-16 02:32:21.563525 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 02:32:21.819683 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:33:29.761413 +0300] INFO    start_polling: Start polling
+[2024-09-16 02:33:29.823596 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:33:33.357384 +0300] INFO    feed_update: Update id=850248450 is handled. Duration 187 ms by bot id=7471759004
+[2024-09-16 02:33:33.609068 +0300] INFO    feed_update: Update id=850248451 is handled. Duration 79 ms by bot id=7471759004
+[2024-09-16 02:33:33.716351 +0300] INFO    feed_update: Update id=850248452 is handled. Duration 78 ms by bot id=7471759004
+[2024-09-16 02:33:33.965072 +0300] INFO    feed_update: Update id=850248453 is handled. Duration 78 ms by bot id=7471759004
+[2024-09-16 02:33:34.051057 +0300] INFO    feed_update: Update id=850248454 is handled. Duration 77 ms by bot id=7471759004
+[2024-09-16 02:33:34.305101 +0300] INFO    feed_update: Update id=850248455 is handled. Duration 94 ms by bot id=7471759004
+[2024-09-16 02:33:34.407316 +0300] INFO    feed_update: Update id=850248456 is handled. Duration 77 ms by bot id=7471759004
+[2024-09-16 02:33:34.671887 +0300] INFO    feed_update: Update id=850248457 is handled. Duration 109 ms by bot id=7471759004
+[2024-09-16 02:33:34.756560 +0300] INFO    feed_update: Update id=850248458 is handled. Duration 62 ms by bot id=7471759004
+[2024-09-16 02:33:34.975482 +0300] INFO    feed_update: Update id=850248459 is handled. Duration 78 ms by bot id=7471759004
+[2024-09-16 02:33:35.133159 +0300] INFO    feed_update: Update id=850248460 is handled. Duration 62 ms by bot id=7471759004
+[2024-09-16 02:33:35.301804 +0300] INFO    feed_update: Update id=850248461 is handled. Duration 109 ms by bot id=7471759004
+[2024-09-16 02:33:35.461900 +0300] INFO    feed_update: Update id=850248462 is handled. Duration 77 ms by bot id=7471759004
+[2024-09-16 02:33:36.350627 +0300] INFO    feed_update: Update id=850248449 is handled. Duration 3313 ms by bot id=7471759004
+[2024-09-16 02:33:51.928164 +0300] INFO    feed_update: Update id=850248463 is handled. Duration 3250 ms by bot id=7471759004
+[2024-09-16 02:34:08.796676 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 02:34:09.065305 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:34:14.758673 +0300] INFO    start_polling: Start polling
+[2024-09-16 02:34:14.818080 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:34:21.770388 +0300] INFO    feed_update: Update id=850248465 is handled. Duration 171 ms by bot id=7471759004
+[2024-09-16 02:34:21.842275 +0300] INFO    feed_update: Update id=850248466 is handled. Duration 78 ms by bot id=7471759004
+[2024-09-16 02:34:22.014899 +0300] INFO    feed_update: Update id=850248467 is handled. Duration 77 ms by bot id=7471759004
+[2024-09-16 02:34:22.107104 +0300] INFO    feed_update: Update id=850248468 is handled. Duration 79 ms by bot id=7471759004
+[2024-09-16 02:34:22.320518 +0300] INFO    feed_update: Update id=850248469 is handled. Duration 77 ms by bot id=7471759004
+[2024-09-16 02:34:22.470476 +0300] INFO    feed_update: Update id=850248470 is handled. Duration 63 ms by bot id=7471759004
+[2024-09-16 02:34:22.726972 +0300] INFO    feed_update: Update id=850248471 is handled. Duration 63 ms by bot id=7471759004
+[2024-09-16 02:34:22.825005 +0300] INFO    feed_update: Update id=850248472 is handled. Duration 77 ms by bot id=7471759004
+[2024-09-16 02:34:24.713736 +0300] INFO    feed_update: Update id=850248464 is handled. Duration 3297 ms by bot id=7471759004
+[2024-09-16 02:34:27.859986 +0300] INFO    feed_update: Update id=850248474 is handled. Duration 79 ms by bot id=7471759004
+[2024-09-16 02:34:29.358051 +0300] INFO    feed_update: Update id=850248473 is handled. Duration 3187 ms by bot id=7471759004
+[2024-09-16 02:34:36.586251 +0300] INFO    feed_update: Update id=850248475 is handled. Duration 3155 ms by bot id=7471759004
+[2024-09-16 02:34:49.197530 +0300] INFO    feed_update: Update id=850248476 is handled. Duration 3157 ms by bot id=7471759004
+[2024-09-16 02:35:14.363808 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 02:35:14.617293 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:35:18.983274 +0300] INFO    start_polling: Start polling
+[2024-09-16 02:35:19.042875 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:35:24.061998 +0300] INFO    feed_update: Update id=850248478 is handled. Duration 77 ms by bot id=7471759004
+[2024-09-16 02:35:24.275775 +0300] INFO    feed_update: Update id=850248479 is handled. Duration 77 ms by bot id=7471759004
+[2024-09-16 02:35:26.377990 +0300] INFO    feed_update: Update id=850248477 is handled. Duration 3280 ms by bot id=7471759004
+[2024-09-16 02:35:33.634439 +0300] INFO    feed_update: Update id=850248480 is handled. Duration 3155 ms by bot id=7471759004
+[2024-09-16 02:48:05.062292 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 02:48:05.315588 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:59:04.554993 +0300] INFO    start_polling: Start polling
+[2024-09-16 02:59:04.612964 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:59:25.788533 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 02:59:26.040493 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:59:30.605793 +0300] INFO    start_polling: Start polling
+[2024-09-16 02:59:30.664285 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 02:59:38.781018 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 02:59:39.032942 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 03:00:00.097854 +0300] INFO    start_polling: Start polling
+[2024-09-16 03:00:00.154903 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 03:00:17.888298 +0300] INFO    feed_update: Update id=850248481 is handled. Duration 3359 ms by bot id=7471759004
+[2024-09-16 03:02:04.876910 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 03:02:05.128114 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 03:02:12.458313 +0300] INFO    start_polling: Start polling
+[2024-09-16 03:02:12.518086 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 03:02:18.111098 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 03:02:18.362592 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 03:02:48.995188 +0300] INFO    start_polling: Start polling
+[2024-09-16 03:02:49.052078 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 03:02:59.954084 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 03:03:00.205229 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 03:04:39.252769 +0300] INFO    start_polling: Start polling
+[2024-09-16 03:04:39.870378 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 03:05:10.673082 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 03:05:10.925500 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 03:06:07.222906 +0300] INFO    start_polling: Start polling
+[2024-09-16 03:06:07.282944 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 03:06:16.062732 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 03:06:16.289489 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 03:06:41.189989 +0300] INFO    start_polling: Start polling
+[2024-09-16 03:06:41.357044 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 03:06:47.146561 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 03:06:47.398529 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 03:14:30.209654 +0300] INFO    start_polling: Start polling
+[2024-09-16 03:14:30.269029 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 03:14:38.013072 +0300] INFO    feed_update: Update id=850248482 is handled. Duration 3312 ms by bot id=7471759004
+[2024-09-16 03:15:24.952403 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 03:15:24.985194 +0300] ERROR   _listen_updates: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 1] [SSL: APPLICATION_DATA_AFTER_CLOSE_NOTIFY] application data after close notify (_ssl.c:2685)
+[2024-09-16 03:15:24.985194 +0300] WARNING _listen_updates: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7471759004)
+[2024-09-16 03:15:25.222384 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 03:15:29.258721 +0300] INFO    start_polling: Start polling
+[2024-09-16 03:15:29.319189 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 03:15:39.860957 +0300] INFO    feed_update: Update id=850248483 is handled. Duration 3329 ms by bot id=7471759004
+[2024-09-16 03:16:01.647032 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 03:16:01.908151 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 03:16:32.444263 +0300] INFO    start_polling: Start polling
+[2024-09-16 03:16:32.507826 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 03:16:45.912351 +0300] INFO    feed_update: Update id=850248484 is handled. Duration 3265 ms by bot id=7471759004
+[2024-09-16 03:16:48.949335 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 03:16:49.216257 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 14:35:21.362959 +0300] INFO    start_polling: Start polling
+[2024-09-16 14:35:21.473042 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 14:35:30.639886 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 14:35:30.892013 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 14:35:53.548285 +0300] INFO    start_polling: Start polling
+[2024-09-16 14:35:53.666884 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 14:35:59.364054 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 14:35:59.624790 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 14:36:22.844907 +0300] INFO    start_polling: Start polling
+[2024-09-16 14:36:22.948654 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 14:36:58.757187 +0300] INFO    feed_update: Update id=850248485 is handled. Duration 3657 ms by bot id=7471759004
+[2024-09-16 14:36:59.747801 +0300] INFO    feed_update: Update id=850248487 is handled. Duration 344 ms by bot id=7471759004
+[2024-09-16 14:36:59.807942 +0300] INFO    feed_update: Update id=850248488 is handled. Duration 155 ms by bot id=7471759004
+[2024-09-16 14:37:01.733755 +0300] INFO    feed_update: Update id=850248489 is handled. Duration 358 ms by bot id=7471759004
+[2024-09-16 14:37:01.970289 +0300] INFO    feed_update: Update id=850248490 is handled. Duration 312 ms by bot id=7471759004
+[2024-09-16 14:37:02.421791 +0300] INFO    feed_update: Update id=850248491 is handled. Duration 296 ms by bot id=7471759004
+[2024-09-16 14:37:02.469578 +0300] INFO    feed_update: Update id=850248492 is handled. Duration 250 ms by bot id=7471759004
+[2024-09-16 14:37:02.658840 +0300] INFO    feed_update: Update id=850248486 is handled. Duration 3375 ms by bot id=7471759004
+[2024-09-16 14:37:16.185153 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 14:37:16.443593 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 14:44:15.593240 +0300] INFO    start_polling: Start polling
+[2024-09-16 14:44:15.703251 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 14:44:22.943905 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 14:44:23.207841 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 14:44:43.626607 +0300] INFO    start_polling: Start polling
+[2024-09-16 14:44:43.792873 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 14:44:46.434332 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 14:44:46.693493 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 14:45:45.486283 +0300] INFO    start_polling: Start polling
+[2024-09-16 14:45:45.589392 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 14:45:46.956074 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 14:45:47.218244 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 14:46:00.685829 +0300] INFO    start_polling: Start polling
+[2024-09-16 14:46:00.780239 +0300] INFO    _polling: Run polling for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
+[2024-09-16 14:46:07.690984 +0300] INFO    start_polling: Polling stopped
+[2024-09-16 14:46:07.946020 +0300] INFO    _polling: Polling stopped for bot @TheFasterClickBot id=7471759004 - 'TheFaasterClickBot'
